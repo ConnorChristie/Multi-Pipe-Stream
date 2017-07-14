@@ -1,0 +1,27 @@
+{
+  "name": "multi-pipe-stream",
+  "version": "1.0.0",
+  "description": "A writable stream that can be piped to multiple other writable streams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConnorChristie/Multi-Pipe-Stream.git"
+  },
+  "keywords": [
+    "multi-stream",
+    "stream",
+    "pipe"
+  ],
+  "author": "Connor Christie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConnorChristie/Multi-Pipe-Stream/issues"
+  },
+  "homepage": "https://github.com/ConnorChristie/Multi-Pipe-Stream#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
