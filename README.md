@@ -7,6 +7,20 @@ A writable stream that can be piped to multiple other writable streams.
 npm i multi-pipe-stream -S
 ```
 
+## API
+
+### `pipeTo`
+```js
+// @stream - A stream to pipe to
+MultiStream.pipeTo(stream);
+```
+
+### `unpipeFrom`
+```js
+// @stream - A stream that is already being piped to
+MultiStream.unpipeFrom(stream);
+```
+
 ## Code Example
 ```js
 var MultiStream = require('multi-pipe-stream');
