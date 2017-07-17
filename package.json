@@ -1,6 +1,6 @@
 {
   "name": "multi-pipe-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A writable stream that can be piped to multiple other writable streams.",
   "main": "index.js",
   "scripts": {
