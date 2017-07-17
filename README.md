@@ -12,13 +12,13 @@ npm i multi-pipe-stream -S
 ### `pipeTo`
 ```js
 // @stream - A stream to pipe to
-MultiStream.pipeTo(stream);
+myMultiStream.pipeTo(stream);
 ```
 
 ### `unpipeFrom`
 ```js
 // @stream - A stream that is already being piped to
-MultiStream.unpipeFrom(stream);
+myMultiStream.unpipeFrom(stream);
 ```
 
 ## Code Example
