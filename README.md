@@ -2,15 +2,13 @@
 
 A writable stream that can be piped to multiple other writable streams.
 
-## Usage
-
-### Installation
-
-`npm install -S multi-pipe-stream`
-
-### Code Example
-
+## Installation
 ```
+npm i multi-pipe-stream -S
+```
+
+## Code Example
+```js
 var MultiStream = require('multi-pipe-stream');
 
 // Create a new MultiStream
